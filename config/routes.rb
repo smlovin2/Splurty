@@ -7,6 +7,9 @@ Splurty::Application.routes.draw do
 
   resources :quotes
 
+  # Add a route to the about page
+  get 'about', :to => 'quotes#about'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
