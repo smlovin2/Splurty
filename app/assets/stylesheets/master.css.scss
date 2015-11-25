@@ -16,9 +16,6 @@
     font-size: 10px;
     line-height: 16px;
     cursor: pointer;
-    transform:rotate(11deg);
-    -ms-transform:rotate(11deg); /* IE 9 */
-    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 .slogan {
 	font-family: "Palantino", Palantino, Palantino, "URW Palladio L", 
@@ -53,6 +50,9 @@
 	font-style: italic;
 	text-align: right;
 	font-size: 10px;
+}
+.logo:hover {
+	text-decoration:none;
 }
 header {
 	border-top: 9px solid #222222;
